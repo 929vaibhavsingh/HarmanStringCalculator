@@ -1,1 +1,1 @@
-# HarmanStringCalculator
+#String Calculator Assignment by HARMAN
