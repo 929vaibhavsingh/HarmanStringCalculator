@@ -56,6 +56,14 @@ public class StringCalcTest {
         assertEquals(6, StringCalculator.add("1\n2,3"));
     }
 
+    @Test
+    public void testAboveThousand(){
+        assertEquals(2, StringCalculator.add("1000,2"));
+    }
 
+    @Test
+    public void testForDelimiter(){
+        assertEquals(3, StringCalculator.add("//;\n1;2"));
+    }
 
 }
