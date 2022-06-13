@@ -42,7 +42,7 @@ public class StringCalculator {
         }
 
         if(!negString.toString().equals("")){
-            throw new IllegalArgumentException("Negatives not allowed: " + negString);
+            throw new IllegalArgumentException("-ve values are not allowed: " + negString);
         }
 
         return sumTotal;
