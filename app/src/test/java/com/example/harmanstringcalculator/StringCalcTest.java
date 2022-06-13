@@ -31,6 +31,7 @@ public class StringCalcTest {
     }
 
 
+    //Test case for negative numbers
     @Test
     public void testForNegNumber(){
         try {
@@ -45,7 +46,14 @@ public class StringCalcTest {
         }
         catch (IllegalArgumentException e){
             assertEquals(e.getMessage(), "Negatives not allowed: -4,-5");
+
         }
+    }
+
+    //Test case for new line
+    @Test
+    public void testForNewLineEscapeSequence(){
+        assertEquals(6, StringCalculator.add("1\n2,3"));
     }
 
 
