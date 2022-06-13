@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class StringCalcTest {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         org.junit.runner.JUnitCore.main("com.example.harmanstringcalculator.StringCalcTest");
     }
     //Test case for empty string
